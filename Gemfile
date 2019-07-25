@@ -41,6 +41,8 @@ gem 'jasny-bootstrap-rails'
 
 gem "animate-rails"
 
+gem 'sprockets', '~>3.7.2'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
