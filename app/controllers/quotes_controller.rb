@@ -30,7 +30,7 @@ class QuotesController < ApplicationController
     @quote = Quote.new(quote_params)
 
     respond_to do |format|
-      if @quote.save
+      if (model: @quote) && @quote.save
 
         first_name = params[:quote][:first_name]
         last_name = params[:quote][:last_name]
