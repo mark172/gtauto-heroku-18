@@ -16,6 +16,6 @@ class TrackingMailer < ActionMailer::Base
         @make = make
         @model = model
         
-        mail(from: 'sales@gtautomotive.com', subject: 'New Tracking Request')
+        mail(from: 'sales@gtautotransport.com', subject: 'New Tracking Request')
     end
 end

@@ -25,6 +25,6 @@ class OrderMailer < ActionMailer::Base
         @is_operable = is_operable
         @description = description
         
-        mail(from: 'sales@gtautomotive.com', subject: 'NEW ORDER')
+        mail(from: 'sales@gtautotransport.com', subject: 'NEW ORDER')
     end
 end
